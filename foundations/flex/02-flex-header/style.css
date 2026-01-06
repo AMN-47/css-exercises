@@ -4,7 +4,8 @@
   display: flex;
   padding: 16px;
   gap: 120px;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 8px;
 }
 .logo {
   font-size: 48px;
@@ -19,6 +20,9 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+  padding: 8px;
 }
 
 a {
