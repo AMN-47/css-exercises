@@ -2,14 +2,17 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  padding: 16px;
+  gap: 120px;
+  justify-content: center;
 }
-
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  align-items: center;
 }
 
 ul {
@@ -25,4 +28,3 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 } 
-
